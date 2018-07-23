@@ -1,0 +1,55 @@
+﻿La génération a démarré 23/07/2018 22:29:46.
+     1>Projet "D:\dev\myVideoEditor\myVideoEditor\myVideoEditor.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "Release\myVideoEditor.lastbuildstate".
+       InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release\myVideoEditor.unsuccessfulbuild".
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /h "myVideoEditoridl.h" /tlb "Release\myVideoEditor.tlb" /robust myVideoEditor.idl 
+         Processing .\myVideoEditor.idl
+         myVideoEditor.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         D:\Softwares\VisualStudio_2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\myVideoEditor.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Softwares\VisualStudio_2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\myVideoEditor.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt myVideoEditor.cpp myVideoEditorCtrl.cpp myVideoEditorPropPage.cpp
+         myVideoEditor.cpp
+         myVideoEditorCtrl.cpp
+         myVideoEditorPropPage.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x040c" /IRelease\ /nologo /fo"Release\myVideoEditor.res" myVideoEditor.rc 
+       Link:
+         D:\Softwares\VisualStudio_2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\dev\myVideoEditor\Release\myVideoEditor.ocx" /INCREMENTAL:NO /NOLOGO /DEF:".\myVideoEditor.def" /MANIFEST /ManifestFile:"Release\myVideoEditor.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\dev\myVideoEditor\Release\myVideoEditor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\dev\myVideoEditor\Release\myVideoEditor.lib" /MACHINE:X86 /DLL Release\myVideoEditor.res
+         Release\myVideoEditor.obj
+         Release\myVideoEditorCtrl.obj
+         Release\myVideoEditorPropPage.obj
+         Release\stdafx.obj
+            Création de la bibliothèque D:\dev\myVideoEditor\Release\myVideoEditor.lib et de l'objet D:\dev\myVideoEditor\Release\myVideoEditor.exp
+         Génération de code en cours
+         Fin de la génération du code
+         myVideoEditor.vcxproj -> D:\dev\myVideoEditor\Release\myVideoEditor.ocx
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\dev\myVideoEditor\Release\myVideoEditor.ocx;#2" /manifest Release\myVideoEditor.ocx.intermediate.manifest D:\Softwares\VisualStudio_2010\VC\Include\Manifest\dpiaware.manifest
+       RegisterOutput:
+         regsvr32 /s "D:\dev\myVideoEditor\Release\myVideoEditor.ocx"
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\myVideoEditor.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\myVideoEditor.lastbuildstate".
+     1>Génération du projet "D:\dev\myVideoEditor\myVideoEditor\myVideoEditor.vcxproj" terminée (rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.89

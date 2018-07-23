@@ -1,0 +1,51 @@
+// myVideoEditor.idl : source de la bibliothèque de types pour le projet de contrôle ActiveX.
+
+// Ce fichier sera traité par l'outil Compilateur MIDL pour
+// produire la bibliothèque de types (myVideoEditor.tlb) qui deviendra une ressource dans
+// myVideoEditor.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(18D4BAA0-7B00-4C47-A3C7-915C7C1C211D), version(1.0),
+  control ]
+library myVideoEditorLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Interface de dispatch principale pour CmyVideoEditorCtrl
+	[ 
+		uuid(1B5BD69B-B625-4DA6-9654-4FFFE4B52907)	
+	]
+	dispinterface _DmyVideoEditor
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Interface de dispatch d'événement pour CmyVideoEditorCtrl
+
+	[ 
+		uuid(38026BD2-15AD-4EBC-964C-542D4AFF0785)	
+	]
+	dispinterface _DmyVideoEditorEvents
+	{
+		properties:
+			//  L'interface d'événement n'a pas de propriété
+
+		methods:
+	};
+
+	//  Informations de classe pour CmyVideoEditorCtrl
+	[
+		uuid(E14624CA-F188-4364-8B51-020FDC702A52)
+	]
+	coclass myVideoEditor
+	{
+		[default] dispinterface _DmyVideoEditor;
+		[default, source] dispinterface _DmyVideoEditorEvents;
+	};
+
+};
